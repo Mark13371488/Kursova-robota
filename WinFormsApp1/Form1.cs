@@ -389,18 +389,6 @@ namespace WinFormsApp1
             {
                 getInfoButton.Visible = false;
             }
-            if (tab.Text == "Reports")
-            {
-                CreateButton.Visible = false;
-                DeleteButton.Visible = false;
-                UpdateButton.Visible = false;
-            }
-            else
-            {
-                CreateButton.Visible = true;
-                DeleteButton.Visible = true;
-                UpdateButton.Visible = true;
-            }
         }
 
         private void getInfoButton_Click(object sender, EventArgs e)
